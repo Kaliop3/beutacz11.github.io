@@ -1,0 +1,72 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url("Assets/SpaceBackground.svg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-x: right;
+    background-size: fill;
+    min-height: 100%;
+    color: #282828;
+}
+img{
+    display: block;
+    width: 20mm;
+    height: 20mm;
+    
+}
+#nav ul{
+    margin: 0px;
+}
+#nav li{
+    display: inline-block;
+    padding-left: 60px;
+    line-height: 20mm;
+}
+#nav a{
+    text-decoration: none;
+    color:#282828;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1, p{
+    font-family: 'Space Mono',sans-serif;
+}
+h1{
+    font-size: 300%;
+}
+p{
+    font-size: 150%;
+}
+h1 span{
+    color:#4483DB;
+}
+#text a{
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    border-radius: 15mm;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg,#5BDFF3,#333CC9);
+    box-shadow: grey 3px 3px 3px;
+    padding: 1em;
+    color:white;
+    margin-top: 20mm;
+}
+#text a:hover{
+    transform:scale(1.5) rotate(5deg);
+}
+#text{
+    margin-top: 14em;
+    width: 37em;
+}
+.narrow{
+    width: 960px;
+    margin: 0 auto;
+}
