@@ -7,22 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Launch off Today</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Space+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="small-device.css" />
+
+
 </head>
 
 <body>
     <div class="narrow">
         <div id="nav">
-            <img src="Assets/RocketLogo.svg" alt="LOGO">
+            <img id="menu" src="Assets/menu-icon.svg" alt="menu">
+            <img id="logo" src="Assets/RocketLogo.svg" alt="LOGO">
             <ul>
                 <li>
-                    <a href="http://">PRICING</a>
+                    <a href="#">PRICING</a>
                 </li>
                 <li>
-                    <a href="http://">HOW IT WORKS</a>
+                    <a href="#">HOW IT WORKS</a>
                 </li>
                 <li>
-                    <a href="http://">SUPPORT</a>
+                    <a href="#">SUPPORT</a>
                 </li>
             </ul>
         </div>
@@ -30,7 +34,9 @@
             <h1>Launch off Today with Rocket<span>Devs</span></h1>
 
             <p>A World-leading platform in organic Social media growth. Get started today & Reach audiences who care.</p>
-            <a href="GetStarted.html">Get Started</a>
+            <div id="GetS">
+                <a href="GetStarted.html">Get Started</a>
+            </div>
         </div>
     </div>
 </body>
