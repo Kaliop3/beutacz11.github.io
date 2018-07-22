@@ -15,8 +15,10 @@ body{
     display: block;
     width: 10mm;
     height: 10mm; 
-    margin:15px;
+    margin:10px;
     position: absolute;
+top:0;
+left:0;
 }
 .menu ul{
     list-style-type: none;
