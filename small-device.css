@@ -16,30 +16,44 @@ body{
     width: 10mm;
     height: 10mm; 
     margin:15px;
+    position: absolute;
 }
-#menu{
-    margin: 15px;
+.menu ul{
+    list-style-type: none;
 }
-#nav ul{
-    margin: 0px;
-    display: none;
+.menu li{
+    margin-top: 5px;    
+    padding: 10px;
 }
-/* #nav li{
-    display: inline-block;
-    padding-left: 60px;
-    line-height: 20mm;
-}
-#nav a{
+.menu a{
     text-decoration: none;
     color:#282828;
-}*/
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu{
+    margin-top:10px; 
+    width: 100%;
+    padding: 15px;
+    display: none;
+}
+#menu{
+    display: block;
+    width: 10mm;
+    height: 10mm;
+    margin: 7px;
+
+}
+#picturs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
 #nav{
     font-family: 'Roboto', sans-serif;
     background: white;
     margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
 
 } 
 p{
